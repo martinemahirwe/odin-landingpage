@@ -6,9 +6,6 @@
   cursor: pointer;
   
 }
-body{
-  background: #0e0e0e;
-}
 header{
 background-color: #1F2937;
 height: 15vh;
@@ -115,9 +112,8 @@ h3{
   gap: 60px; 
 }
 .product{
-  border: 5px solid #3882F6;
-  box-shadow:5px 4px 2px 2px #E5E7EB;
-  border-radius: 8px;
+  border: 2px solid #3882F6;
+  border-radius: 4px;
   padding-bottom: 20px;
 } 
 
@@ -137,14 +133,15 @@ h3{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 250px;
-  margin-right: 250px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 .testimony{
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
   color: #1F2937;
+  text-align: center;
 }
  strong{
 float: right;
